@@ -271,6 +271,18 @@ footer {
     background-color: #fff;
     height: 100vh;
     z-index: 1000;
+
+    animation: slidein 0.5s;
+  }
+
+  @keyframes slidein {
+    0% {
+      right: -600px;
+    }
+
+    100% {
+      right: 0px;
+    }
   }
 
   .show-menu-bar .menu {
